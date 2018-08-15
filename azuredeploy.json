@@ -53,15 +53,15 @@
         "virtualNetworkAddressRange": "172.16.5.0/24",
         "adLBFE": "LBFE",
         "adLBBE": "LBBE",
-        "adRDPNAT": "adRDP",
-        "adNicName": "adNic",
+        "adRDPNAT": "adRDP1",
+        "adNicName": "adNic1",
         "adNicIPAddress": "172.16.5.8",
-        "adVMName": "adVM",
-        "adSubnetName": "default",
+        "adVMName": "adVM1",
+        "adSubnetName": "default1",
         "adSubnetAddressPrefix": "172.16.5.0/24",
-        "publicIPAddressName": "adPublicIP",
-        "adAvailabilitySetName": "adAvailabiltySet",
-        "adLBName": "adLoadBalancer"
+        "publicIPAddressName": "adPublicIP1",
+        "adAvailabilitySetName": "adAvailabiltySet1",
+        "adLBName": "adLoadBalancer1"
     },
     "resources": [
         {
