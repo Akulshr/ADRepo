@@ -55,7 +55,7 @@
         "adLBBE": "LBBE",
         "adRDPNAT": "adRDP1",
         "adNicName": "adNic1",
-        "adNicIPAddress": "172.16.5.8",
+        "adNicIPAddress": "172.16.5.9",
         "adVMName": "adVM1",
         "adSubnetName": "default1",
         "adSubnetAddressPrefix": "172.16.5.0/24",
