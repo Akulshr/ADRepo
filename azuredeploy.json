@@ -57,7 +57,7 @@
         "adNicName": "adNic1",
         "adNicIPAddress": "172.16.5.9",
         "adVMName": "adVM1",
-        "adSubnetName": "default1",
+        "adSubnetName": "addefault",
         "adSubnetAddressPrefix": "172.16.5.0/24",
         "publicIPAddressName": "adPublicIP1",
         "adAvailabilitySetName": "adAvailabiltySet1",
