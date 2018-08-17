@@ -49,19 +49,19 @@
         }
     },
     "variables": {
-        "virtualNetworkName": "anubhav-rg-vnet",
+        "virtualNetworkName": "vnet",
         "virtualNetworkAddressRange": "172.16.5.0/24",
         "adLBFE": "LBFE",
         "adLBBE": "LBBE",
-        "adRDPNAT": "akadRDP",
-        "adNicName": "akadNic",
-        "adNicIPAddress": "172.16.5.9",
-        "adVMName": "akadVM",
-        "adSubnetName": "akdefault",
+        "adRDPNAT": "sampleAdRDP",
+        "adNicName": "sampleAdNic",
+        "adNicIPAddress": "172.16.5.1",
+        "adVMName": "sampleAdVM",
+        "adSubnetName": "default",
         "adSubnetAddressPrefix": "172.16.5.0/24",
-        "publicIPAddressName": "akadPublicIP",
-        "adAvailabilitySetName": "akadAvailabiltySet",
-        "adLBName": "akadLoadBalancer"
+        "publicIPAddressName": "sampleAdPublicIP",
+        "adAvailabilitySetName": "sampleAdAvailabiltySet",
+        "adLBName": "sampleAdLoadBalancer"
     },
     "resources": [
         {
