@@ -49,16 +49,16 @@
         }
     },
     "variables": {
-        "virtualNetworkName": "anubhav-rg-vnet",
-        "virtualNetworkAddressRange": "172.16.5.0/24",
+        "virtualNetworkName": "ak-rg-vnet",
+        "virtualNetworkAddressRange": "173.16.5.0/24",
         "adLBFE": "LBFE",
         "adLBBE": "LBBE",
         "adRDPNAT": "akadRDP",
         "adNicName": "akadNic",
-        "adNicIPAddress": "172.16.5.9",
+        "adNicIPAddress": "173.16.5.1",
         "adVMName": "akadVM",
         "adSubnetName": "akdefault",
-        "adSubnetAddressPrefix": "172.16.5.0/24",
+        "adSubnetAddressPrefix": "173.16.5.0/24",
         "publicIPAddressName": "akadPublicIP",
         "adAvailabilitySetName": "akadAvailabiltySet",
         "adLBName": "akadLoadBalancer"
@@ -167,7 +167,7 @@
             "properties": {
                 "ipConfigurations": [
                     {
-                        "name": "ipconfig1",
+                        "name": "ipconfig",
                         "properties": {
                             "privateIPAllocationMethod": "Static",
                             "privateIPAddress": "[variables('adNicIPAddress')]",
