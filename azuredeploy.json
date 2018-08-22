@@ -49,19 +49,19 @@
         }
     },
     "variables": {
-        "virtualNetworkName": "vnet",
-        "virtualNetworkAddressRange": "10.0.0.0/16",
+        "virtualNetworkName": "akvnet",
+        "virtualNetworkAddressRange": "170.0.0.0/16",
         "adLBFE": "LBFE",
         "adLBBE": "LBBE",
-        "adRDPNAT": "sampleAdRDP",
-        "adNicName": "sampleAdNic",
-        "adNicIPAddress": "10.0.0.4",
-        "adVMName": "sampleAdVM",
-        "adSubnetName": "default",
-        "adSubnetAddressPrefix": "10.0.0.0/24",
-        "publicIPAddressName": "sampleAdPublicIP",
-        "adAvailabilitySetName": "sampleAdAvailabiltySet",
-        "adLBName": "sampleAdLoadBalancer"
+        "adRDPNAT": "aksampleAdRDP",
+        "adNicName": "aksampleAdNic",
+        "adNicIPAddress": "170.0.0.4",
+        "adVMName": "aksampleAdVM",
+        "adSubnetName": "akdefault",
+        "adSubnetAddressPrefix": "170.0.0.0/24",
+        "publicIPAddressName": "aksampleAdPublicIP",
+        "adAvailabilitySetName": "aksampleAdAvailabiltySet",
+        "adLBName": "aksampleAdLoadBalancer"
     },
     "resources": [
         {
