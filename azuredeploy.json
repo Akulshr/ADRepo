@@ -53,15 +53,15 @@
         "virtualNetworkAddressRange": "170.0.0.0/16",
         "adLBFE": "LBFE",
         "adLBBE": "LBBE",
-        "adRDPNAT": "aksampleAdRDP",
-        "adNicName": "aksampleAdNic",
+        "adRDPNAT": "aasampleAdRDP",
+        "adNicName": "aasampleAdNic",
         "adNicIPAddress": "170.0.0.4",
-        "adVMName": "aksampleAdVM",
-        "adSubnetName": "akdefault",
+        "adVMName": "aasampleAdVM",
+        "adSubnetName": "aadefault",
         "adSubnetAddressPrefix": "170.0.0.0/24",
-        "publicIPAddressName": "aksampleAdPublicIP",
-        "adAvailabilitySetName": "aksampleAdAvailabiltySet",
-        "adLBName": "aksampleAdLoadBalancer"
+        "publicIPAddressName": "aasampleAdPublicIP",
+        "adAvailabilitySetName": "aasampleAdAvailabiltySet",
+        "adLBName": "aasampleAdLoadBalancer"
     },
     "resources": [
         {
